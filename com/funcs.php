@@ -47,5 +47,5 @@ function shutdownFunc() {
 }
 function getToken(){
     global $S;
-    mRESP_DATA($S->AGet('s_token'));
+    mRESP_DATA($S->AGet('ws_token'));
 }
